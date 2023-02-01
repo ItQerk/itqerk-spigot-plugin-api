@@ -1,0 +1,45 @@
+lvl:
+  # How much is to add to the required value to get the next level e.g.: the first level has 100 the second will have 100 + the added value
+  addBlockMined: 120
+  # How many dug blocks are needed for the first level
+  firstLevelRequirements: 100
+  drops:
+    - '[COMMAND] tell {player} The message can be changed in ToolsLevel/tools/shovel'
+    - '[MESSAGE] The message can be changed in ToolsLevel/tools/shovel'
+    - '[ITEM] APPLE 3'
+  requiredLevelToUpgrade:
+    iron: 2
+    diamond: 5
+    netherite: 10
+recipe:
+  '1': AIR
+  '2': STICK
+  '3': AIR
+  '4': AIR
+  '5': STICK
+  '6': AIR
+  '7': AIR
+  '8': COBBLESTONE
+  '9': AIR
+lore:
+  - '§7Blocks: §b{experience}'
+  - '§7Level: §b{level} §8(§2{percent}%§8)'
+  - '§7Progress: §8[{progress}§8]'
+drops:
+  block:
+    spruce_log: 2
+Enchantments:
+  dig_speed:
+    max_lvl: 6
+    chance: 30
+  durability:
+    max_lvl: 6
+    chance: 30
+  loot_bonus_blocks:
+    max_lvl: 4
+    chance: 20
+  mending:
+    max_lvl: 1
+    chance: 20
+DisableLeveling:
+  - GRASS_BLOCK
