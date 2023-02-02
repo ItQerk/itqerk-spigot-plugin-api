@@ -1,0 +1,23 @@
+language-changed: "Zmieniłeś język na: {language}"
+language-already-used: "Ten język jest już używany"
+language-current: "Aktualny język to: {language}"
+
+repair-success: "Naprawiłeś swoje narzędzie"
+repair-failed: "Nie udało się naprawić"
+repair-not-enough-points: "Nie masz wystarczająco dużo punktów"
+repair-gui-empty-item: "Nie możesz naprawić powietrza"
+
+enchantments:
+  efficiency: '&cEnchant &7&6Efficiency &c'
+  fortune: '&cEnchant &7&6Fortune &c'
+  mending: '&cEnchant &7&6Mending &c'
+  silktauch: '&cEnchant &7&6Silk Touch &c'
+  unbreaking: '&cEnchant &7&6Unbreaking &c'
+  fireaspect: '&cEnchant &7&6Fire Aspect &c'
+  looting: '&cEnchant &7&6Looting &c'
+  sharpness: '&cEnchant &7&6Sharpness &c'
+enchantment-drop: "Zdobyłeś enchant: {enchantment} {level}"
+
+plugin-reload: "&8[&b&lTools&6&lUpgrades&8] &6plugin has been reloaded"
+message-not-player: "You must be a player to use this command."
+message-not-perms: "Nie masz permisji do wykonania tej komendy"
