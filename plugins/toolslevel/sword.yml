@@ -1,33 +1,49 @@
-lvl:
-  # How much is to add to the required value to get the next level e.g.: the first level has 20 the second will have 20 + the added value
-  addMobsKilled: 100
+level:
+  # How much is to add to the required value to get the next level e.g.: the first level has 100 the second will have 100 + the added value
+  addExperience: 120
+  # How many dug blocks are needed for the first level
   firstLevelRequirements: 100
-  drops:
-    - '[COMMAND] tell {player} The message can be changed in ToolsLevel/tools/sword'
-    - '[MESSAGE] The message can be changed in ToolsLevel/tools/sword'
-    - '[ITEM] APPLE 3'
+
+  # What levels the reward should drop from
+  
+  drops: 
+    # [COMMAND] = He will execute the command, {player} = for which player
+    # [GLOBAL] = Sends a message to all, {player} = player who has reached a certain level, {level} = what level he has reached
+    # [ITEM] = Adding an item to a player, {player} = for which player
+    1:
+      - '[COMMAND] tell {player} The message can be changed in ToolsLevel/tools/sword'
+      - '[GLOBAL] The message can be changed in ToolsLevel/tools/sword'
+      - '[ITEM] APPLE 3'
+  
+  # Required level to upgrade the tool
   requiredLevelToUpgrade:
     iron: 2
     diamond: 5
     netherite: 10
-recipe:
-  '1': AIR
-  '2': STICK
-  '3': AIR
-  '4': AIR
-  '5': COBBLESTONE
-  '6': COBBLESTONE
-  '7': AIR
-  '8': AIR
-  '9': AIR
+
+# What crafting should be on the tool
+  '1': AIR          # Empty
+  '2': STICK        # Stick
+  '3': AIR          # Empty
+  '4': AIR          # Empty
+  '5': COBBLESTONE  # Cobblestone
+  '6': COBBLESTONE  # Cobblestone
+  '7': AIR          # Empty
+  '8': AIR          # Empty
+  '9': AIR          # Empty
+# Whether the ability to craft a tool is to be enabled
+recipeEnabled: true
+
 lore:
   - '§7Damage: §b{experience}'
   - '§7Level: §b{level} §8(§2{percent}%§8)'
   - '§7Progress: §8[{progress}§8]'
-drops:
+
+# How much to drop experience from a given block, if it is not on the list will be 1
+experience:
   mobs:
     zombie: 2
-Enchantments:
+enchantments:
   damage_all:
     max_lvl: 6
     chance: 30
@@ -40,5 +56,8 @@ Enchantments:
   mending:
     max_lvl: 1
     chance: 20
-DisableLeveling:
-  - GRASS_BLOCK
+
+# what not to fall out of experience
+disableExperience:
+  entity:
+      - ZOMBIE
