@@ -28,9 +28,9 @@ recipe:
   '3': AIR          # Empty
   '4': AIR          # Empty
   '5': COBBLESTONE  # Cobblestone
-  '6': COBBLESTONE  # Cobblestone
+  '6': AIR          # Empty
   '7': AIR          # Empty
-  '8': AIR          # Empty
+  '8': COBBLESTONE  # Cobblestone
   '9': AIR          # Empty
 # Whether the ability to craft a tool is to be enabled
 recipeEnabled: true
