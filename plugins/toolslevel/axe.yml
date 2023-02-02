@@ -38,7 +38,7 @@ recipeEnabled: true
 lore:
   - '§7Blocks: §b{experience}'
   - '§7Level: §b{level} §8(§2{percent}%§8)'
-  - '§7Progress: §8[{progress}§8]'
+  - '§7Progress: §8[§c{progress}§8]'
 
 # How much to drop experience from a given block, if it is not on the list will be 1
 experience:
