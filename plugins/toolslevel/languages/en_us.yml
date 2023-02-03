@@ -1,11 +1,11 @@
-language-changed: "Zmieniłeś język na: {language}"
-language-already-used: "Ten język jest już używany"
-language-current: "Aktualny język to: {language}"
+language-changed: "You have changed the language to: {language}"
+language-already-used: "This language is already in use"
+language-current: "The current language is: {language}"
 
-repair-success: "Naprawiłeś swoje narzędzie"
-repair-failed: "Nie udało się naprawić"
-repair-not-enough-points: "Nie masz wystarczająco dużo punktów"
-repair-gui-empty-item: "Nie możesz naprawić powietrza"
+repair-success: "You fixed your tool"
+repair-failed: "Failed to fix"
+repair-not-enough-points: "You don't have enough points"
+repair-gui-empty-item: "You can't fix the air"
 
 enchantments:
   efficiency: '&cEnchant &7&6Efficiency &c'
@@ -18,6 +18,6 @@ enchantments:
   sharpness: '&cEnchant &7&6Sharpness &c'
 enchantment-drop: "Zdobyłeś enchant: {enchantment} {level}"
 
-plugin-reload: "&8[&b&lTools&6&lUpgrades&8] &6plugin has been reloaded"
+plugin-reload: "&2Plugin has been reloaded"
 message-not-player: "You must be a player to use this command."
-message-not-perms: "Nie masz permisji do wykonania tej komendy"
+message-not-perms: "You do not have the permissions to execute this command"
