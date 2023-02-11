@@ -7,17 +7,8 @@ repair-failed: "Failed to fix"
 repair-not-enough-points: "You don't have enough points"
 repair-gui-empty-item: "You can't fix the air"
 
-enchantments:
-  efficiency: '&cEnchant &7&6Efficiency &c'
-  fortune: '&cEnchant &7&6Fortune &c'
-  mending: '&cEnchant &7&6Mending &c'
-  silktauch: '&cEnchant &7&6Silk Touch &c'
-  unbreaking: '&cEnchant &7&6Unbreaking &c'
-  fireaspect: '&cEnchant &7&6Fire Aspect &c'
-  looting: '&cEnchant &7&6Looting &c'
-  sharpness: '&cEnchant &7&6Sharpness &c'
-enchantment-drop: "Zdobyłeś enchant: {enchantment} {level}"
-
 plugin-reload: "&2Plugin has been reloaded"
 message-not-player: "You must be a player to use this command."
 message-not-perms: "You do not have the permissions to execute this command"
+
+enchantment-gained: "You have gained an enchantment: {enchantment} {level}"
