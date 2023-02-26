@@ -1,5 +1,5 @@
 pay-prefix: "&8[&2PAY&8]"
-pay-usage: "%prefix% &7/pay &7<&fnick&7> &7<&famount&7>"
+pay-usage: "%prefix% &6Correct usage: &7/pay &7<&fnick&7> &7<&famount&7>"
 pay-minimum-message: "%prefix% &cThe minimum amount you can send is&8: &6%amount%"
 pay-send-message: "%prefix% &6You sent the player&8: &e%player% the amount&8: &6%amount%"
 pay-receive-message: "%prefix% &6You have received an amount from player&8: &e%player%&8: &6%amount%"
