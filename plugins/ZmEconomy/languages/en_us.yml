@@ -1,8 +1,8 @@
 pay-prefix: "&8&[&2PAY&8]"
-pay-ussage: "/pay <nick> <amount>"
-pay-minimum-message: "The minimum amount you can send is: %amount%"
-pay-send-message: "You sent the player: %player% the amount: %amount%"
-pay-receive-message: "You have received an amount from player: %player%: %amount%"
+pay-usage: "%prefix% &7/pay &7<&fnick&7> &7<&famount&7>"
+pay-minimum-message: "%prefix% &cThe minimum amount you can send is&8: &6%amount%"
+pay-send-message: "%prefix% &6You sent the player&8: &e%player% the amount&8: &6%amount%"
+pay-receive-message: "%prefix% &6You have received an amount from player&8: &e%player%&8: &6%amount%"
 
 
 
@@ -10,4 +10,4 @@ pay-receive-message: "You have received an amount from player: %player%: %amount
 
 
 
-player-offline: "The specified player is offline"
+player-offline: "&7The specified player is offline"
